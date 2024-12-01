@@ -9,7 +9,7 @@ const Search = ()=>{
                 <input type="text" 
                 className="form-control form-control-lg" 
                 placeholder="Game Search..."
-                // value={query}
+                value={query}
                 onChange={(e)=>setQuery(e.target.value)}/>
                 {error.show && <div className="error">{error.msg}</div>}
             </form>
