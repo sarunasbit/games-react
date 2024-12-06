@@ -4,8 +4,17 @@ const Results =()=>{
     if (isLoading){
         return <h1>Loading...</h1>
     }
-    if(games.length < 0) {
-        return <h1>No games found</h1>
+    // if(games.length < 0) {
+    //     return <h1>No games found</h1>
+    // }
+
+    if(games.length <= 0){
+        return( 
+        <>
+        <Nav/>
+        <h1>No games found</h1> 
+        </>
+        )
     }
 
     return(

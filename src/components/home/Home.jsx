@@ -7,7 +7,7 @@ const Home =()=>{
             <Nav/>
             <main>
                 <Search/>
-                <Results/>
+                {/* <Results/> */}
             </main>
         </div>
     )

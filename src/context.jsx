@@ -4,7 +4,7 @@ import getGame from "./services/getGame";
 
 const AppContext = React.createContext();
 const AppProvider = ({children}) =>{
-    const [query, setQuery] = useState('Witcher 3')
+    const [query, setQuery] = useState('')
     const {isLoading, error, data: games} = getGame(`&platforms=4&search=${query}&search_precise=true&ordering=-rating&page_size=10`)
     
     return(
