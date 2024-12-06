@@ -1,6 +1,6 @@
 import Nav from "../nav/Nav";
 import Results from "../results/Results";
-const SearchPage =()=> {
+const ResultsPage =()=> {
     return(
         <>
             <div className="container">
@@ -12,4 +12,4 @@ const SearchPage =()=> {
     );
 }
 
-export default SearchPage
+export default ResultsPage;
